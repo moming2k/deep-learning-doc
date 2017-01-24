@@ -7,5 +7,5 @@ brew install python python3
 ## Install virtualenv
 
 ```sh
-sudo pip virtualenv
+pip3 install virtualenv
 ```
