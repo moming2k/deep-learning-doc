@@ -13,7 +13,7 @@ pip3 install virtualenv
 ## prepare project folder
 
 ```sh
-mkdir -p ~/projects 
+mkdir -p ~/python_projects
 ```
 
 ## prepare virtual environment folder 
