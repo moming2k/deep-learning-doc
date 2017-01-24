@@ -78,4 +78,25 @@ Successfully installed markdown-2.6.7
 
 ```
 
+To use python 2.7
 
+```
+cd ~/Virtualenvs
+cd python-2-env
+source bin/activate
+```
+
+
+To use python 2.7
+
+```
+cd ~/Virtualenvs
+cd python-3-env
+source bin/activate
+```
+
+To disable virtualenv console
+
+```
+deactivate
+```
