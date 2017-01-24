@@ -18,7 +18,7 @@ mkdir -p ~/python_projects
 
 ## Virtualenv
 
-let’s install virtualenv[https://virtualenv.pypa.io/en/stable/]
+let’s install [virtualenv](https://virtualenv.pypa.io/en/stable/)
 
 ```
 mkdir ~/Virtualenvs
