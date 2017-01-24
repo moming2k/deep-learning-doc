@@ -52,4 +52,26 @@ virtualenv -p python2 python-2-env
 virtualenv -p python3 python-3-env
 ```
 
+By enforce the pip only valid in Virtualenv, whenever you try to install package without Virtualenv active, pip will show below message. 
+
+```
+$ pip install markdown
+Could not find an activated virtualenv (required).
+```
+
+If you need to temporarily disable this checking to install package to global, you can refer to below link 
+https://hackercodex.com/guide/python-development-environment-on-mac-osx/
+
+defining a new function in `~/.bashrc` or `~/.zshrc`
+
+```
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+```
+
+```
+$ gpip install markdown
+```
+
 
