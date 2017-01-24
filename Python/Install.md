@@ -23,3 +23,11 @@ let’s install [virtualenv](https://virtualenv.pypa.io/en/stable/)
 ```
 mkdir ~/Virtualenvs
 ```
+
+open the ~/.bashrc or open ~/.zshrc file
+
+```
+export PIP_REQUIRE_VIRTUALENV=true
+```
+
+restart the terminal after save the config file
