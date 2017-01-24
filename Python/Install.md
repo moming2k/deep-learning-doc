@@ -87,7 +87,7 @@ source bin/activate
 ```
 
 
-To use python 2.7
+To use python 3.x
 
 ```
 cd ~/Virtualenvs
