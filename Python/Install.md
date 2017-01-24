@@ -1,10 +1,10 @@
-# Install Python on Mac
+## Install Python on Mac
 
 ```sh
 brew install python python3
 ```
 
-#Install virtualenv
+## Install virtualenv
 
 ```sh
 sudo pip virtualenv
