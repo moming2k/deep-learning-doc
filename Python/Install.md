@@ -43,3 +43,13 @@ export PIP_REQUIRE_VIRTUALENV=true
 ```
 
 restart the terminal after save the config file
+
+after restart, we will create python 2 and python 3 environment 
+
+```
+cd ~/Virtualenvs
+virtualenv -p python2 python-2-env
+virtualenv -p python3 python-3-env
+```
+
+
