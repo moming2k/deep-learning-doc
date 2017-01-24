@@ -27,6 +27,18 @@ mkdir ~/Virtualenvs
 open the ~/.bashrc or open ~/.zshrc file
 
 ```
+vim ~/.bashrc
+```
+
+or 
+
+```
+vim ~/.zshrc
+```
+
+… and add some lines to it:
+
+```
 export PIP_REQUIRE_VIRTUALENV=true
 ```
 
