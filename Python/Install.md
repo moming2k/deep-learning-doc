@@ -16,7 +16,9 @@ pip3 install virtualenv
 mkdir -p ~/python_projects
 ```
 
-## prepare virtual environment folder 
+## Virtualenv
+
+let’s install virtualenv[https://virtualenv.pypa.io/en/stable/]
 
 ```
 mkdir ~/Virtualenvs
