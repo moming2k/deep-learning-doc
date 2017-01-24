@@ -9,3 +9,15 @@ brew install python python3
 ```sh
 pip3 install virtualenv
 ```
+
+## prepare project folder
+
+```sh
+mkdir -p ~/projects 
+```
+
+## prepare virtual environment folder 
+
+```
+mkdir ~/Virtualenvs
+```
