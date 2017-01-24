@@ -72,6 +72,8 @@ gpip(){
 
 ```
 $ gpip install markdown
+......
+Successfully installed markdown-2.6.7
 ```
 
 
