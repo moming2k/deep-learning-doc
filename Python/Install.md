@@ -100,3 +100,18 @@ To disable virtualenv console
 ```
 deactivate
 ```
+
+## pyenv 
+
+Install [pyenv](https://github.com/yyuu/pyenv-installer)
+
+```sh
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+```
+
+Install Python 2.7.8
+
+```sh
+pyenv install 2.7.8
+```
+
