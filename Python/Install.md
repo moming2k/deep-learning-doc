@@ -115,3 +115,8 @@ Install Python 2.7.8
 pyenv install 2.7.8
 ```
 
+Install Python 3.6.0
+
+```sh
+pyenv install 3.6.0
+```
