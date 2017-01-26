@@ -128,6 +128,7 @@ echo "3.6.0" > ~/.pyenv/version
 ```
 
 setting per folder ( optional )
+
 ```sh 
 echo "3.6.0" > .python-version
 ```
