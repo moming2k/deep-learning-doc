@@ -140,3 +140,18 @@ echo "venv36" > .python-version
 ```
 
 For more information to sepecify the python version, please refer to [pyenv-local](https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local)
+
+Install numpy module
+
+```sh
+pip install numpy
+```
+
+Test numpy 
+
+```sh
+$ python
+
+>>> import numpy as np
+>>>
+```
