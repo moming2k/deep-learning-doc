@@ -141,6 +141,22 @@ echo "venv36" > .python-version
 
 For more information to sepecify the python version, please refer to [pyenv-local](https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local)
 
+## Requirements Files
+
+"Requirements files" are files containing a list of items to be installed using pip install like so:
+
+```sh
+pip install -r requirements.txt
+```
+
+To create requirements.txt from current environment contains a pinned version of everything that was installed when pip freeze was run
+
+```sh
+pip freeze > requirements.txt
+```
+
+details can refer to pip [user guide](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files)
+
 ## numpy 
 
 Install numpy module
