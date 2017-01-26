@@ -133,4 +133,4 @@ setting per folder ( optional )
 echo "3.6.0" > .python-version
 ```
 
-For more information to sepecify the python version, please refer to (this link)[https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local]
+For more information to sepecify the python version, please refer to [pyenv-local](https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local)
