@@ -120,3 +120,16 @@ Install Python 3.6.0
 ```sh
 pyenv install 3.6.0
 ```
+
+add default python version 3.6.0 to user profile
+
+```sh 
+echo "3.6.0" > ~/.pyenv/version
+```
+
+setting per folder ( optional )
+```sh 
+echo "3.6.0" > .python-version
+```
+
+For more information to sepecify the python version, please refer to (this link)[https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local]
