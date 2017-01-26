@@ -121,16 +121,22 @@ Install Python 3.6.0
 pyenv install 3.6.0
 ```
 
+Create Virtualenvs for python 3.6.0 inside pyenv
+
+```sh
+pyenv virtualenv venv36
+```
+
 add default python version 3.6.0 to user profile
 
 ```sh 
-echo "3.6.0" > ~/.pyenv/version
+echo "venv36" > ~/.pyenv/version
 ```
 
 setting per folder ( optional )
 
 ```sh 
-echo "3.6.0" > .python-version
+echo "venv36" > .python-version
 ```
 
 For more information to sepecify the python version, please refer to [pyenv-local](https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local)
