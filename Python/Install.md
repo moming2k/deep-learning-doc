@@ -222,7 +222,6 @@ SciPy (>= 0.9).
 pip install SciPy
 pip install NumPy
 pip install sklearn
-
 ```
 
 ## TensorFlow
