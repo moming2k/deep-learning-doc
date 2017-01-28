@@ -4,6 +4,10 @@
 brew install python python3
 ```
 
+```sh
+brew install bazel
+```
+
 ## Install virtualenv
 
 ```sh
@@ -140,6 +144,49 @@ echo "venv36" > .python-version
 ```
 
 For more information to sepecify the python version, please refer to [pyenv-local](https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local)
+
+Install other python dependencies
+
+```sh
+easy_install -U six
+easy_install -U numpy
+easy_install wheel
+```
+
+We also recommend the ipython enhanced python shell, which you can install as follows:
+
+```sh
+easy_install ipython
+```
+
+Optional: Setup GPU for Mac
+
+If you plan to build with GPU support you will need to make sure you have GNU coreutils installed via homebrew:
+
+```sh
+brew install coreutils
+```sh
+
+Next you will need to make sure you have a recent CUDA Toolkit installed by either downloading the package for your version of OSX directly from NVIDIA or by using the Homebrew Cask extension:
+
+```sh
+brew tap caskroom/cask
+brew cask install cuda
+```sh
+
+Once you have the CUDA Toolkit installed you will need to setup the required environment variables by adding the following to your ~/.bash_profile:
+
+export CUDA_HOME=/usr/local/cuda
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:$CUDA_HOME/lib"
+export PATH="$CUDA_HOME/bin:$PATH"
+
+Finally, you will also want to install the [CUDA Deep Neural Network](https://developer.nvidia.com/cudnn) (cuDNN v5.1) library which currently requires an [Accelerated Computing Developer Program](https://developer.nvidia.com/accelerated-computing-developer) account. Once you have it downloaded locally, you can unzip and move the header and libraries to your local CUDA Toolkit folder:
+
+```sh
+mv include/cudnn.h /Developer/NVIDIA/CUDA-8.0/include/
+mv lib/libcudnn* /Developer/NVIDIA/CUDA-8.0/lib
+ln -s /Developer/NVIDIA/CUDA-8.0/lib/libcudnn* /usr/local/cuda/lib/
+```
 
 ## Miniconda3
 
