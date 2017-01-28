@@ -141,6 +141,43 @@ echo "venv36" > .python-version
 
 For more information to sepecify the python version, please refer to [pyenv-local](https://github.com/yyuu/pyenv/blob/master/COMMANDS.md#pyenv-local)
 
+## Miniconda3
+
+Conda is a package manager application that quickly installs, runs, and updates packages and their dependencies
+
+```sh 
+curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+```
+
+```sh 
+sh Miniconda3-latest-MacOSX-x86_64.sh
+```
+
+add miniconda3 path to bash / zsh profile ( `~/.bashrc` or `~/.zshrc` )
+
+```sh 
+export PATH="/Users/moming2k/miniconda3/bin:$PATH"
+```
+
+restart terminal after save the setting
+
+```sh 
+conda create -n style-transfer python=2.7.9
+```
+
+```sh 
+source activate style-transfer
+```
+
+```sh 
+conda install -c conda-forge tensorflow=0.11.0
+```
+
+```sh 
+conda install scipy pillow
+```
+
+
 ## Requirements Files
 
 "Requirements files" are files containing a list of items to be installed using pip install like so:
@@ -186,5 +223,19 @@ pip install SciPy
 pip install NumPy
 pip install sklearn
 
+```
+
+## TensorFlow
+
+select proper version of TensorFlow from [this link](https://www.tensorflow.org/get_started/os_setup)
+
+For example, `Mac OS X, GPU enabled, Python 3.4 or 3.5:`
+
+```sh 
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/gpu/tensorflow_gpu-0.12.1-py3-none-any.whl
+```
+
+```sh 
+pip3 install --upgrade $TF_BINARY_URL
 ```
 
