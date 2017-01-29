@@ -236,6 +236,12 @@ To create an environment from an environment file use conda env create -f enviro
 conda env create -f environment.yaml
 ```
 
+Listing environments
+
+```sh
+conda env list
+```
+
 ## Requirements Files
 
 "Requirements files" are files containing a list of items to be installed using pip install like so:
