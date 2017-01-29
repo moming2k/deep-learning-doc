@@ -224,6 +224,17 @@ conda install -c conda-forge tensorflow=0.11.0
 conda install scipy pillow
 ```
 
+Saving and loading environments
+
+```sh
+conda env export > environment.yaml
+```
+
+To create an environment from an environment file use conda env create -f environment.yaml. This will create a new environment with the same name listed in environment.yaml.
+
+```sh
+conda env create -f environment.yaml
+```
 
 ## Requirements Files
 
