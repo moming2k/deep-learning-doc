@@ -236,6 +236,12 @@ To create an environment from an environment file use conda env create -f enviro
 conda env create -f environment.yaml
 ```
 
+Removing environments
+
+```sh
+conda env remove -n env_name
+```
+
 Listing environments
 
 ```sh
